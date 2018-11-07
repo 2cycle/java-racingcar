@@ -8,10 +8,6 @@ public class StringCalculator {
         String[] values = text.split(" ");
 
 
-        if(values.length <= 3 ){            //In case, need to one calculation
-            return getRes(values[1],Integer.parseInt(values[0]),values[2]);
-        }
-
         res = getRes(values[1],Integer.parseInt(values[0]),values[2]);
         for(int i=3;i<values.length; i = i+2){
 
