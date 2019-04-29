@@ -84,6 +84,7 @@ public class RacingGame {
         for(Car c : cars){
             if(c.isNeedPosition(maxP)) {
                 sb.append(c.getName());
+                System.out.println("jkm test");
             }
         }
         return sb.toString();
